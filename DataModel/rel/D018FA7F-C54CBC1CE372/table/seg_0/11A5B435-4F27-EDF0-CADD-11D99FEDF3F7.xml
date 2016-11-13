@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11A5B435-4F27-EDF0-CADD-11D99FEDF3F7" name="Llibre">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:01:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="09B6DA68-D746-292D-FD4B-3FC2A929C7FA">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titol" id="A9E43D8A-F740-15C8-E85A-A8B571B29901">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Autor" id="9D1ECA94-E14B-0E97-1D6E-DDBBF25FA586">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Editorial" id="890A08DD-B93E-0414-A821-3BD0A21456D0">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Any" id="30C7FD43-B3C2-A958-80CC-A31788F03A76">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Idioma" id="96C2C13F-F734-1E77-0896-5A5961244239">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7AE9612C-A350-F4F6-8E61-FDFD9156A053</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16A779D7-23C0-9E82-A9A8-90D7D128B21B" referredColumn="7AE9612C-A350-F4F6-8E61-FDFD9156A053"/>
+</associations>
+</Column>
+<Column name="Edicio" id="130812F3-E8EA-6C16-96D0-6E2F2DC6BCE6">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coleccio" id="31EAEB4C-E439-58E4-F6A5-5FA7D4FF5DBD">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcio" id="40126082-0949-4665-44B2-6ACCE3CCB635">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISBN" id="137A058C-F1A9-6B3D-C8C5-388EF0A7E962">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genere" id="937B6173-3CAD-A48F-804D-E15EEBF4221F">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F1ABEECD-F918-7419-499E-70A2A4179C5F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="814437A1-E8F0-59AB-BA00-47602DB10B3B" referredColumn="F1ABEECD-F918-7419-499E-70A2A4179C5F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDD080F1-74CE-A0CD-6289-3CAECFA837C8" name="Llibre_PK">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:10:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B6DA68-D746-292D-FD4B-3FC2A929C7FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8088D0E-50A8-69AD-D81D-92E17FE41EE6" name="Llibre_Idioma_FK">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:14:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C2C13F-F734-1E77-0896-5A5961244239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CDF30E5-4BE5-5C5E-E9BC-56637B5DF7CB" name="Llibre_Genere_FK">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:16:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="937B6173-3CAD-A48F-804D-E15EEBF4221F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

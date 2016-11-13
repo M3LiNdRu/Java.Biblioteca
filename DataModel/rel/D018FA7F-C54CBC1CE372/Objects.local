@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="11A5B435-4F27-EDF0-CADD-11D99FEDF3F7" name="Llibre" seqName="seg_0"/>
+   <object objectType="Table" objectID="1E88DEA2-8609-0D8F-769E-41CFC4B4B1B5" name="Genere" seqName="seg_0"/>
+   <object objectType="Table" objectID="B73AC204-FA82-8DE6-A009-302A04CCC2B4" name="Idioma" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="16A779D7-23C0-9E82-A9A8-90D7D128B21B" name="Llibre_Idioma_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="814437A1-E8F0-59AB-BA00-47602DB10B3B" name="Llibre_Genere_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

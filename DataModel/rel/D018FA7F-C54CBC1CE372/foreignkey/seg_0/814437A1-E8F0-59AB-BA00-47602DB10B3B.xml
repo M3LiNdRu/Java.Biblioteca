@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="814437A1-E8F0-59AB-BA00-47602DB10B3B" name="Llibre_Genere_FK">
+<createdBy>Roger</createdBy>
+<createdTime>2013-07-02 22:16:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<containerWithKeyObject>11A5B435-4F27-EDF0-CADD-11D99FEDF3F7</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>4CDF30E5-4BE5-5C5E-E9BC-56637B5DF7CB</localFKIndex>
+<keyObject>82D3C879-21C1-9BA6-9291-7AF5A55919F4</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
